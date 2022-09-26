@@ -1,0 +1,257 @@
+.story2 {
+    width: 100%;
+    height: 630vh;
+    background: url('../assets/sun2.gif') no-repeat center center/cover;
+    transition: 0.5s;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.story2 .story2-content {
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.story2 .story2-content h1{
+    font-size: 3em;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* background: linear-gradient(to bottom, rgb(1, 5, 66) 30%, rgb(1, 0, 23) 50%); */
+}
+
+.story2 .story2-content .story2-intro {
+    margin: 30px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.story2 .story2-content .story2-intro .story2-intro-text {
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s;
+    width: 50%;
+    border-radius: 15px;
+    backdrop-filter: blur(10px) saturate(180%);
+} 
+
+.story2 .story2-content .story2-intro .story2-intro-text  h2 {
+    font-size: 1.8em;
+    padding: 10px 0;
+}
+
+.story2 .story2-content .story2-intro .story2-intro-text p {
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.story2 .story2-content .story2-intro .story2-intro-obs1 {
+    margin: 5% 0;
+    height: 300px;
+    font-size: 2em;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    background: url('../assets/entercorona.gif') no-repeat center center/cover;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+
+.story2 .story2-content .story2-intro .story2-intro-obs1 span {
+    font-family: 'Poppins', sans-serif;
+    animation: colorchange 10s infinite;
+    font-weight: 500;
+}
+
+@keyframes colorchange {
+    0% {
+        color: #fff;
+    }
+    50% {
+        color: #000;
+    }
+    100% {
+        color: #fff;
+    }
+}
+
+.story2 .story2-content .story2-intro .story2-intro-obs2 {
+    margin: 5% 0;
+    font-size: 2em;
+    height: 300px;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    background: url('../assets/spacedust.gif') no-repeat center center/cover;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+
+.story2 .story2-content .story2-intro .story2-intro-obs3 {
+    margin: 5% 0;
+    font-size: 2em;
+    height: 300px;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    background: url('../assets/solarwind.gif') no-repeat center center/cover;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+
+.story2 .story2-content .story2-mid {
+    margin: 30px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.story2 .story2-content .story2-mid .story2-mid-text {
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s;
+    width: 50%;
+    font-size: 1.5em;
+    border-radius: 15px;
+    backdrop-filter: blur(10px) saturate(180%);
+}
+
+.story2 .story2-content .story2-mid .story2-mid-text h2 {
+    font-size: 1.8em;
+    padding: 10px 0;
+}
+
+.story2 .story2-content .story2-mid .story2-mid-text span {
+    color: #111;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.story2 .story2-content .story2-end {
+    margin: 30px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.story2 .story2-content .story2-end .story2-end-text {
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s;
+    width: 50%;
+    font-size: 1.5em;
+    border-radius: 15px;
+    backdrop-filter: blur(10px) saturate(180%);
+}
+
+.story2 .story2-content .story2-end .story2-end-text span {
+    color: #111;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.story2 .story2-content .story2-end .gcontainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.story2 .story2-content .story2-end .gcontainer .gcard {
+    position: relative;
+    margin: 30px;
+    width: 290px;
+    height: 470px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px) saturate(180%);
+    z-index: 100;
+}
+
+.story2 .story2-content .story2-end .gcontainer .gcard .gcontent {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.story2 .story2-content .story2-end .gcontainer .gcard .gcontent span {
+    font-size: 1.04em;
+    color: darkturquoise;
+}
+
+.story2 .story2-content .story2-end .gcontainer .gcard .gcontent h3 {
+    font-size: 1.8em;
+    padding: 10px 0;
+}
+
+.story2 .story2-content .story2-end .gcontainer .gcard .gcontent p {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.story2 .story2-content .story2-end .gcontainer .gimg {
+    background: url('../assets/parker2.png') no-repeat;
+    width: 100%;
+    height: 655px;
+    background-size: cover;
+    background-position: fixed;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(66, 36, 36, 0.5);
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .story2 {
+        height: auto;
+        margin-bottom: -30px;
+    }
+
+    .story2 .story2-content .story2-end .gcontainer .gimg {
+        width: 100%;
+        height: 220px;
+        max-height: auto;
+    }
+
+
+    .story2 .story2-content .story2-intro .story2-intro-text {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .story2 .story2-content .story2-mid .story2-mid-text {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .story2 .story2-content .story2-end .story2-end-text {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .story2 .story2-content h1 {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+}
+
+
