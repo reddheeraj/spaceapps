@@ -1,0 +1,137 @@
+.story3 {
+    width: 100%;
+    color: #fff;
+    background: url('../assets/space2.gif') no-repeat center center/cover;
+    height: 150vh;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.story3 .story3-content {
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.story3 .story3-content h1{
+    font-size: 3em;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.story3 .story3-content .story3-intro {
+    margin: 30px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.story3 .story3-content .story3-intro .story3-intro-text {
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s;
+    width: 50%;
+    border-radius: 15px;
+    backdrop-filter: blur(10px) saturate(180%);
+} 
+
+.story3 .story3-content .story3-intro .story3-intro-text  h2 {
+    font-size: 1.8em;
+    padding: 10px 0;
+}
+
+.story3 .story3-content .story3-intro .story3-intro-text p {
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.story3 .story3-content .story3-intro .story3-intro-obs1 {
+    margin: 5% 0;
+    height: 300px;
+    font-size: 2em;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+.story3 .story3-content .story3-intro .story3-intro-obs2 {
+    margin: 5% 0;
+    height: 300px;
+    font-size: 2em;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+.story3 .story3-content .story3-intro .story3-intro-obs3 {
+    margin: 5% 0;
+    height: 300px;
+    font-size: 2em;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+.story3 .story3-content.story3-end .story3-intro-obs4 {
+    margin: 5% 0;
+    height: 300px;
+    font-size: 2em;
+    backdrop-filter: blur(10px) saturate(180%);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
+}
+
+.story3 .story3-content .story3-end {
+    margin: 30px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.story3 .story3-content .story3-end .story3-end-text {
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s;
+    width: 50%;
+    font-size: 1.5em;
+    border-radius: 15px;
+    backdrop-filter: blur(10px) saturate(180%);
+}
+
+.story3 .story3-content .story3-intro .card3-img1
+{
+    position: absolute;
+    left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 45%;
+    height: 420px;
+    background: url('../assets/Venus1.gif') no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    transition: 0.5s;
+}
+
+.story3 .story3-content .story3-end .card3-img2
+{
+    position: absolute;
+    left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 45%;
+    height: 420px;
+    background: url('../assets/Venus2.gif') no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    transition: 0.5s;
+}
