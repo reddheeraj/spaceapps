@@ -4,7 +4,9 @@ import '../styles/Home.css'
 import { FaArrowDown, FaBars } from 'react-icons/fa'
 import Story1 from './Story1'
 import Story2 from './Story2'
+import Story3 from './Story3'
 import SpaceVideo from '../assets/spacevid.mp4'
+
 
 function Home() {
 
@@ -55,6 +57,9 @@ function Home() {
       </div>
       <div className='story2'>
         <Story2 />
+      </div>
+      <div className='story3'>
+        <Story3 />
       </div>
     </div>
   )
