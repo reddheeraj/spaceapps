@@ -60,7 +60,5 @@ function Story3() {
             </div>
         </div>
     </div>
-  )
+    );
 }
-
-export default Story3

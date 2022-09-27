@@ -6,6 +6,7 @@ import Story1 from './Story1'
 import Story2 from './Story2'
 import Story3 from './Story3'
 
+
 function Home() {
 
   function MenuToggle() {
