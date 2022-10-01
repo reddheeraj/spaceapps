@@ -38,7 +38,7 @@ function Home() {
         </div>
         <ul className='sci'>
           <li><a href='https://blogs.nasa.gov/parkersolarprobe/2018/08/11/the-parker-solar-probe-mission/' target='_blank' rel="noreferrer">NASA</a></li>
-          <li><a href='/'>Github</a></li>
+          <li><a href='https://www.github.com/reddheeraj/spaceapps'>Github</a></li>
         </ul>
         <ul className='navigation'>
           <li><a href='/spaceapps'>Option1</a></li>
