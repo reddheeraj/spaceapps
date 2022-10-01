@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/spaceapps" element={<Home />} />
           <Route path="option1" element={<Home />} />
           <Route path="option2" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />

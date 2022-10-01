@@ -27,7 +27,7 @@ function Home() {
     <div className="home">
       <div className='section'>
         <div className='header'>
-          <a href='/' className='logo'>Space.</a>
+          <a href='/spaceapps' className='logo'>Space.</a>
           <div className='toggle' onClick={MenuToggle}>
             <FaBars size={"25px"} color="white" className='bars'/>
           </div>
