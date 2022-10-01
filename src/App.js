@@ -12,7 +12,7 @@ function App() {
           <Route path="/spaceapps" element={<Home />} />
           <Route path="option1" element={<Home />} />
           <Route path="option2" element={<Home />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/spaceapps/aboutus" element={<AboutUs />} />
         </Routes>
         <Footer />
       </Router>

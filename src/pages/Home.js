@@ -43,7 +43,7 @@ function Home() {
         <ul className='navigation'>
           <li><a href='/spaceapps'>Option1</a></li>
           <li><a href='/spaceapps'>Option2</a></li>
-          <li><a href='/aboutus'>About the Team</a></li>
+          <li><a href='/spaceapps/aboutus'>About the Team</a></li>
         </ul>
         <div className='scrolldown'>
           <h2>Scroll Down</h2>
