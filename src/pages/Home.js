@@ -5,6 +5,8 @@ import { FaArrowDown, FaBars } from 'react-icons/fa'
 import Story1 from './Story1'
 import Story2 from './Story2'
 import Story3 from './Story3'
+import { Link } from 'react-scroll'
+import AboutUs from './AboutUs'
 
 
 function Home() {
@@ -43,7 +45,9 @@ function Home() {
         <ul className='navigation'>
           <li><a href='/spaceapps'>Option1</a></li>
           <li><a href='/spaceapps'>Option2</a></li>
-          <li><a href='/spaceapps/aboutus'>About the Team</a></li>
+          <Link to='about'>
+            <li><a href='/aboutus'>About the Team</a></li>
+          </Link>
         </ul>
         <div className='scrolldown'>
           <h2>Scroll Down</h2>
@@ -60,6 +64,7 @@ function Home() {
       <div className='story3'>
         <Story3 />
       </div>
+      <AboutUs />
     </div>
   )
 }    

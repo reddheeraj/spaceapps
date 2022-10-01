@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 function AboutUs() {
   return (
-    <div className='aboutus'>
+    <div className='aboutus' id='about'>
         <div className='aboutus_header'>
             <h1>About the Team</h1>
         </div>
