@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/spaceapps/static/css/main.074fcdc2.css",
-    "main.js": "/spaceapps/static/js/main.6e0c3b53.js",
+    "main.js": "/spaceapps/static/js/main.27cdb496.js",
     "static/js/787.e26d4699.chunk.js": "/spaceapps/static/js/787.e26d4699.chunk.js",
     "static/media/space.gif": "/spaceapps/static/media/space.b5b570ed963ade69d291.gif",
     "static/media/solarwind.gif": "/spaceapps/static/media/solarwind.0e3b42ee3755dc4da4c2.gif",
@@ -18,11 +18,11 @@
     "static/media/parkerlaunch.jpg": "/spaceapps/static/media/parkerlaunch.43a96a2aadd3f91520f5.jpg",
     "index.html": "/spaceapps/index.html",
     "main.074fcdc2.css.map": "/spaceapps/static/css/main.074fcdc2.css.map",
-    "main.6e0c3b53.js.map": "/spaceapps/static/js/main.6e0c3b53.js.map",
+    "main.27cdb496.js.map": "/spaceapps/static/js/main.27cdb496.js.map",
     "787.e26d4699.chunk.js.map": "/spaceapps/static/js/787.e26d4699.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.074fcdc2.css",
-    "static/js/main.6e0c3b53.js"
+    "static/js/main.27cdb496.js"
   ]
 }
