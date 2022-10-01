@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Story3.css'
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 function Story3() {
@@ -62,3 +61,5 @@ function Story3() {
     </div>
     );
 }
+
+export default Story3

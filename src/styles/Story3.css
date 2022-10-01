@@ -2,11 +2,7 @@
     width: 100%;
     color: #fff;
     background: url('../assets/space2.gif') no-repeat center center/cover;
-<<<<<<< HEAD
     height: 500vh;
-=======
-    height: 150vh;
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     transition: 0.5s;
     transition-delay: 0.5s;
 }
@@ -56,13 +52,9 @@
 
 .story3 .story3-content .story3-intro .story3-intro-obs1 {
     margin: 5% 0;
-<<<<<<< HEAD
     height: 200px;
     text-align: center;
     width: 50%;
-=======
-    height: 300px;
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     font-size: 2em;
     backdrop-filter: blur(10px) saturate(180%);
     padding: 10px;
@@ -71,20 +63,15 @@
 }
 .story3 .story3-content .story3-intro .story3-intro-obs2 {
     margin: 5% 0;
-<<<<<<< HEAD
     height: 250px;
     text-align: center;
     width: 50%;
-=======
-    height: 300px;
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     font-size: 2em;
     backdrop-filter: blur(10px) saturate(180%);
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
 }
-<<<<<<< HEAD
 
 .story3 .story3-content .story3-end .story3-intro-obs4 {
     margin: 5% 0;
@@ -94,20 +81,6 @@
     justify-content: center;
     display: flex;
     width: 50%;
-=======
-.story3 .story3-content .story3-intro .story3-intro-obs3 {
-    margin: 5% 0;
-    height: 300px;
-    font-size: 2em;
-    backdrop-filter: blur(10px) saturate(180%);
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
-}
-.story3 .story3-content.story3-end .story3-intro-obs4 {
-    margin: 5% 0;
-    height: 300px;
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     font-size: 2em;
     backdrop-filter: blur(10px) saturate(180%);
     padding: 10px;
@@ -129,16 +102,12 @@
     text-align: center;
     transition: 0.5s;
     width: 50%;
-<<<<<<< HEAD
     box-shadow: 0 0 20px rgba(129, 120, 120, 0.8);
-=======
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     font-size: 1.5em;
     border-radius: 15px;
     backdrop-filter: blur(10px) saturate(180%);
 }
 
-<<<<<<< HEAD
 .story3 .story3-content .story3-end .story3-end-text h2 {
     font-size: 1.8em;
     padding: 10px 0;
@@ -158,24 +127,12 @@
     width: 45%;
     height: 420px;
     border-radius: 15px;
-=======
-.story3 .story3-content .story3-intro .card3-img1
-{
-    position: absolute;
-    left: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 45%;
-    height: 420px;
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     background: url('../assets/Venus1.gif') no-repeat;
     background-size: cover;
     background-position: fixed;
     transition: 0.5s;
 }
 
-<<<<<<< HEAD
 .story3 .story3-content .story3-intro .card3-img2
 {
     position: relative;
@@ -184,15 +141,6 @@
     display: flex;
     border-radius: 15px;
     margin: 20px;
-=======
-.story3 .story3-content .story3-end .card3-img2
-{
-    position: absolute;
-    left: 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
->>>>>>> a3f5c4c4ca80d98495f24923a5d20ad672e0f397
     width: 45%;
     height: 420px;
     background: url('../assets/Venus2.gif') no-repeat;
