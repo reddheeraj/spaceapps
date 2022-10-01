@@ -56,7 +56,7 @@ function AboutUs() {
             </div>
             <div className='backicon'>
                 <li>
-                    <a href='/'>Back to Home</a>
+                    <a href='/spaceapps'>Back to Home</a>
                 </li>
             </div>
         </div>
